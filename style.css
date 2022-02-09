@@ -1,40 +1,110 @@
-.bg-img {
-    background-image: url("/Images/sunset1.jpeg");
-    min-height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    image-rendering: pixelated;
-    background-size: 100%
+ body{
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+ }
+
+ * {
+  text-decoration: none;
 }
-  /* Position the navbar container inside the image */
+
+hr{
+   border: none;
+   height: 1px;
+   background-color: rgba(255, 166, 0, 0.753);
+}
+
+ .bg-img {
+    height: 100%;
+    width: 100%;
+ }
+
+ 
+  .topnav{
+  display: flex;
+  width:100%;
+  margin-left: 5%;
+ }
+
+ .topnav a{
+   color: black;
+   text-decoration: none;
+   padding: 0 5px;
+  
+ }
+
+ .lang{
+   margin-top: 5%;
+   height: 0px;
+ }
+
+ .topnav a:hover, .middlenav a:hover{
+  border-bottom: 1px solid orange;
+  text-shadow: 0 0 0.05px black;
+  font-weight: bolder;
+ }
+
+ a:hover{
+  font-weight: bolder;
+ }
+
+ 
+
+ .location{
+   position: absolute;
+   margin-top: -5%;
+   margin-left: 76%;
+   color: black;
+   text-align: end;
+ }
+
+
   .container {
-    
-    margin: 40px;
-    float: right;
-    width: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   
-  /* The navbar */
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    
+  /*  navbar */
+  .middlenav {
+    background-color: white;
   }
   
   /* Navbar links */
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
+  .middlenav a {
+    color: #2c2828;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin: 10px;
   }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Tajawal', sans-serif;
+
+  }
+
+  .logoName{
+    height: 100px;
+  }
+
   
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  .name{
+    font-size: 80px;
+    margin-bottom: 0%;
+  }
+
+  .bnb{
+    margin-top: 0%;
+    font-size: 20px;
+    font-style: italic;
   }
   
