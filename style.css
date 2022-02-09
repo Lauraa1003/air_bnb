@@ -10,13 +10,10 @@
 hr{
    border: none;
    height: 1px;
-   background-color: rgba(255, 166, 0, 0.753);
+   background-color: rgb(171,205,239);
 }
 
- .bg-img {
-    height: 100%;
-    width: 100%;
- }
+ 
 
  
   .topnav{
@@ -38,7 +35,7 @@ hr{
  }
 
  .topnav a:hover, .middlenav a:hover{
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid rgb(171,205,239);
   text-shadow: 0 0 0.05px black;
   font-weight: bolder;
  }
@@ -68,9 +65,7 @@ hr{
   }
   
   /*  navbar */
-  .middlenav {
-    background-color: white;
-  }
+ 
   
   /* Navbar links */
   .middlenav a {
@@ -95,9 +90,9 @@ hr{
   .logoName{
     height: 100px;
   }
-
   
   .name{
+    color: rgb(94, 88, 88);
     font-size: 80px;
     margin-bottom: 0%;
   }
@@ -107,4 +102,35 @@ hr{
     font-size: 20px;
     font-style: italic;
   }
+
+  .bg-img {
+    height: 80%;
+    width: 50%;
+    float:left;
+    position:absolute;
+    margin-left: 10%;
+ }
+
+ 
+
+ .aboutUs{
+   height: 50%;
+   width: 30%;
+   position: absolute;
+   background-color: rgb(171,205,239);
+   margin-left: 50%;
+   margin-top: 5%;
+   
+ }
   
+
+  .head{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .aboutUs{
+    color: white;
+    padding: 2%;
+   
+  }
